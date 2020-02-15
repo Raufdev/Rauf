@@ -20,11 +20,6 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Areas\Admin\Pages\" />
-    <Folder Include="Areas\Admin\ViewComponents\" />
-  </ItemGroup>
-
 
 
 </Project>

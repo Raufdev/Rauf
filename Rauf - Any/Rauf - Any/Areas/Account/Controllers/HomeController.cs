@@ -6,16 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Rauf___Any.Areas.Admin.Controllers
 {
-    [Area("Admin")]
+    [Area("Account")]
     //[Route("admin")]
-    public class AdminController : Controller
+    public class HomeController : Controller
     {
-        public AdminController()
-        {
-            // do stuff
-        }
-
-        public IActionResult Login()
+        public IActionResult Index()
         {
             return View();
         }
